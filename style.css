@@ -1,0 +1,230 @@
+.navbar-nav .nav-link {
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change this to your desired hover color */
+  border-bottom: 2px solid #007bff; /* Underline effect */
+  font-weight: bold;
+}
+
+.btn-signup {
+  background-color:  #2629cd; /* Coral color */
+  border: none;
+  border-radius: 50px; /* Rounded corners */
+  padding: 10px 20px;
+  margin-right: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-signup:hover {
+  background-color: #0b170810; /* Darker coral on hover */
+  transform: scale(1.1); /* Slightly enlarge button */
+}
+
+.btn-signup:focus {
+  outline: none;
+}
+
+
+.hero-section {
+background-color: #f8f9fa; /* Light background for a clean look */
+}
+
+.hero-section h1 {
+color: #2d2d2d; /* Dark color for contrast */
+}
+
+.hero-section p {
+color: #6c757d; /* Subtle color for the lead text */
+}
+
+.hero-section .btn-success {
+background-color: #28a745;
+border-color: #28a745;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero-section .btn-success:hover {
+background-color: #218838;
+transform: translateY(-3px); /* Slight hover effect */
+}
+
+.hero-section .btn-outline-success {
+transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.hero-section .btn-outline-success:hover {
+color: #fff;
+background-color: #28a745;
+border-color: #28a745;
+}
+
+.hero-section img {
+border-radius: 10px;
+/* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); Deep shadow for image */
+}
+
+
+ /* Hover effect for cards */
+ .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slight lift effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Background color for the categories section */
+.categories-section {
+  background-color: #f7f7f7; /* Light gray background */
+  padding: 40px 0; /* Add padding for spacing */
+}
+
+/* Additional styling for the section title */
+.categories-section h2 {
+  color: #28a745; /* Green color for the section title */
+  font-size: 2.5rem;
+}
+
+/* Set fixed size for category images */
+.card-img-top {
+  width: 300px;
+  height: 200px;
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  margin: 0 auto; /* Centers the image in the card */
+}
+
+
+/* Custom styling for the product cards */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Styling for the 'Best Seller' section */
+.best-seller-title {
+  font-size: 2.5rem;
+  color: #28a745; /* Green color */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Styling for the 'More' button */
+.more-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.more-button a {
+  text-decoration: none;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.more-button a:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+
+  /* Custom styling for Deal of the Day section */
+    .deal-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 50px 0;
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .deal-image img {
+      width: 100%;
+      max-width: 400px; /* Max width for the image */
+      border-radius: 10px;
+    }
+
+    .deal-info {
+      flex: 1;
+      margin-left: 30px;
+    }
+
+    .deal-info h2 {
+      font-size: 2.5rem;
+      color: #28a745; /* Green color for the Deal title */
+    }
+
+    .deal-info p {
+      font-size: 1.25rem;
+      color: #555;
+    }
+
+    .countdown {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #28a745; /* Change countdown color to green */
+      margin-top: 20px;
+    }
+
+    .testimonial-section {
+      margin: 50px 3px 50px 80px;
+      /* margin-left: 4.5%; */
+      background-color: #f8f9fa;
+      padding: 40px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial-card {
+      border: none;
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .testimonial-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .testimonial-card blockquote {
+      font-size: 1.25rem;
+      font-style: italic;
+      color: #555;
+    }
+
+    .testimonial-card .name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .testimonial-card .profession {
+      color: #777;
+      font-size: 1rem;
+    }
+
+    .carousel-indicators [data-bs-target] {
+      background-color: #28a745; /* Green color for active indicator */
+    }
+
+    footer a {
+      text-decoration: none; /* Removes underline from links in the footer */
+    }
+    
